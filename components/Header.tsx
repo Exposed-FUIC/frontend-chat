@@ -1,4 +1,5 @@
 import React from 'react'
+import { Button } from './ui/button'
 
 function Header() {
   return (
@@ -6,9 +7,9 @@ function Header() {
         <div>
             Logo?
         </div>
-        <div>
-            UserProfile?
-        </div>
+        <Button variant={'ghost'}>
+          UserProfile?
+        </Button>
     </div>
   )
 }
